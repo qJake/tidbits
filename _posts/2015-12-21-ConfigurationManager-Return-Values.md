@@ -2,7 +2,7 @@
 layout: post
 title: "AppSettings Return Values using ConfigurationManager"
 date: 2015-12-21
-tags: c-sharp
+tags: csharp
 ---
 `ConfigurationManager` uses the following rules to determine what to return when indexing into the `AppSettings` collection:
 
