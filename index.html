@@ -9,3 +9,9 @@ title: Tidbits
   Tidbits of Knowledge
 </h3>
 <p>This site contains random tidbits of knowledge related to software development. These bits of information are typically born out of frustration or lack of documentation elsewhere, sort of like one big repository of "FYI".</p>
+<h3>Posts</h3>
+<ul class="posts">
+  {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
