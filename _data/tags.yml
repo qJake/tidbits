@@ -1,2 +1,5 @@
-csharp:
+- slug: csharp
   name: "C#"
+  
+- slug: configuration
+  name: "Configuration"
