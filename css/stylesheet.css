@@ -431,4 +431,8 @@ small
 {
   font-size: 0.85em;
 }
+
+a.page-title:hover
+{
+  text-decoration: none;
 }
