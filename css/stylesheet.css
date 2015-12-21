@@ -462,7 +462,8 @@ article h6
   color: white;
 }
 
-.tilted-banner a:hover
+.tilted-banner a:hover,
+.tilted-banner a:active
 {
   text-decoration: none;
 }
