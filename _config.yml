@@ -1,2 +1,5 @@
 name: Jake Burgy
 baseurl: "/tidbits"
+syntax-highlighting:
+  enabled : true
+  css: /stylesheets/syntax.css
