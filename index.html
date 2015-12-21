@@ -2,15 +2,15 @@
 layout: default
 title: Tidbits
 ---
-<h3>
+<h2>
   <a id="tidbits-of-knowledge" class="anchor" href="#tidbits-of-knowledge" aria-hidden="true">
     <span class="octicon octicon-link"></span>
   </a>
-  Tidbits of Knowledge
-</h3>
+  Welcome!
+</h2>
 <p>This site contains random tidbits of knowledge related to software development. These bits of information are typically born out of frustration or lack of documentation elsewhere, sort of like one big repository of "FYI".</p>
-<p><strong>Tags:</strong> 
 
+<h3>Tags</h3> 
 {% for t in site.data.tags %}
   <a href="{{ site.baseurl }}/tag/{{ t.slug }}/">{{ t.name }}</a>{% if forloop.last == false %}, {% endif %}
 {% endfor %}
