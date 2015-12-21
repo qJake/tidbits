@@ -21,15 +21,15 @@ layout: default
     {% assign tags_content = '' %}
 {% endif %}
 
-
-<h1>{{ page.title }}</h1>
-<small>Posted on: {{ page.date | date_to_string }}</small>
-
 <article class="post">
-  {{ content }}
-  <aside class="tags">
-    <small class="meta">{{ tags_content }}</small>
-  </aside>
+    <h1>{{ page.title }}</h1>
+    <small>Posted on: {{ page.date | date_to_string }}</small>
+
+    {{ content }}
+    
+    <aside class="tags">
+        <small class="meta">{{ tags_content }}</small>
+    </aside>
 </div>
 
 
