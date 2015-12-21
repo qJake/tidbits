@@ -1,6 +1,4 @@
 name: Jake Burgy
 baseurl: "/tidbits"
 highlighter: pygments
-syntax-highlighting:
-  enabled : true
-  css: /stylesheets/syntax.css
+markdown: redcarpet
