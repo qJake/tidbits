@@ -2,6 +2,7 @@
 layout: post
 title: "Hello, World!"
 date: 2015-12-21
+tags: test
 ---
 # Hello, world!
 
