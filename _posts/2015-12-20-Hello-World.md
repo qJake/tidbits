@@ -6,20 +6,4 @@ date: 2015-12-20
 
 This is the first post to ensure that the blog mechanism is set up properly.
 
-Let's make sure *the* **formatting** is ***working*** correctly...
-
-* A
-* Bulleted
-* List
-
-And...
-
-1. Some
-2. Numbers
-3. Too
-
-[And a link!](http://google.com/)
-
-That's all for now!
-
-**Edit:** Re-generating the URL...?
+Hello, world! `:)`
