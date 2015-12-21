@@ -14,22 +14,22 @@ date: 2015-12-21
 
 Given these settings:
 
-{% highlight xml linenos %}
+~~~ xml
 <appSettings>
   <add key="Key1" value="abc123" />
   <add key="Key2" value="" />
   <add key="Key3" />
 </appSettings>
-{% endhighlight %}
+~~~
 
 And the following code:
 
-{% highlight csharp linenos %}
+~~~ csharp
 Console.WriteLine($"[{ConfigurationManager.AppSettings["Key1"] ?? "NULL"}]");
 Console.WriteLine($"[{ConfigurationManager.AppSettings["Key2"] ?? "NULL"}]");
 Console.WriteLine($"[{ConfigurationManager.AppSettings["Key3"] ?? "NULL"}]");
 Console.WriteLine($"[{ConfigurationManager.AppSettings["Key4"] ?? "NULL"}]");
-{% endhighlight %}
+~~~
 
 The following output is produced:
 
