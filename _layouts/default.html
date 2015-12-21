@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html>
 
@@ -9,7 +8,7 @@
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>Tidbits</title>
+    <title>{{ page.title }}</title>
   </head>
 
   <body>
@@ -32,10 +31,9 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        <h3>
-<a id="tidbits-of-knowledge" class="anchor" href="#tidbits-of-knowledge" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tidbits of Knowledge</h3>
-
-<p>This site contains random tidbits of knowledge related to software development. These bits of information are typically born out of frustration or lack of documentation elsewhere, sort of like one big repository of "FYI".</p>
+        <article>
+          {{ content }}
+        </article>
       </section>
     </div>
 
@@ -51,16 +49,3 @@
 
   </body>
 </html>
-=======
----
-layout: default
-title: Tidbits
----
-<h3>
-  <a id="tidbits-of-knowledge" class="anchor" href="#tidbits-of-knowledge" aria-hidden="true">
-    <span class="octicon octicon-link"></span>
-  </a>
-  Tidbits of Knowledge
-</h3>
-<p>This site contains random tidbits of knowledge related to software development. These bits of information are typically born out of frustration or lack of documentation elsewhere, sort of like one big repository of "FYI".</p>
->>>>>>> refs/remotes/origin/master
