@@ -436,3 +436,8 @@ a.page-title:hover
 {
   text-decoration: none;
 }
+
+aside.tags
+{
+  margin-top: 2em;
+}
