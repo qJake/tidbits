@@ -4,7 +4,6 @@ title: "Hello, World!"
 date: 2015-12-21
 tags: test
 ---
-# Hello, world!
 
 This is the first post to ensure that the blog mechanism is set up properly.
 
