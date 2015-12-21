@@ -1,5 +1,5 @@
 ---
-layout: blog_by_tag
+layout: tagpage
 tag: configuration
 permalink: /tag/configuration/
 ---
