@@ -3,3 +3,9 @@
   
 - slug: configuration
   name: "Configuration"
+  
+- slug: html
+  name: "HTML"
+  
+- slug: javascript
+  name: "JavaScript"
