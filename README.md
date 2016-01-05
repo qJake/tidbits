@@ -4,7 +4,7 @@
 
 View it here: https://qjake.github.io/tidbits/
 
-Powered by [Jekyll](https://jekyllrb.com/).
+Powered by [Jekyll](https://jekyllrb.com/) and [GitHub Pages](https://pages.github.com/).
 
 ## Source
 
