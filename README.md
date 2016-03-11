@@ -2,7 +2,7 @@
 
 :bulb: A website to collect tidbits of knowledge from experience.
 
-View it here: https://jake.burgy.me/tidbits/
+View it here: http://jake.burgy.me/tidbits/
 
 Powered by [Jekyll](https://jekyllrb.com/) and [GitHub Pages](https://pages.github.com/).
 
