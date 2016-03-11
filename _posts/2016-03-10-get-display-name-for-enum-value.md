@@ -24,11 +24,11 @@ public static class EnumExtensions
     public static string GetDisplayName(this Enum en)
     {
         return en.GetType()
-                    .GetMember(en.ToString())
-                    .FirstOrDefault()
-                    ?.GetCustomAttribute<DisplayAttribute>(false)
-                    ?.Name
-                    ?? en.ToString();
+                 .GetMember(en.ToString())
+                 .FirstOrDefault()
+                 ?.GetCustomAttribute<DisplayAttribute>(false)
+                 ?.Name
+                 ?? en.ToString();
     }
 }
 ```
