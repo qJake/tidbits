@@ -22,6 +22,7 @@ A simple column-based container, your standard Flexbox implementation:
 ## Example 2
 
 A vertical flexbox ("rows") with wrapping, and where the column container is centered in the parent container.
+
 ```html
 <div class="fr f-wrap fr-align-container-center">
   <div></div>
